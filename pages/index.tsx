@@ -9,8 +9,6 @@ import Header from '@/components/Header'
 import MonitorList from '@/components/MonitorList'
 import { Center, Divider, Text } from '@mantine/core'
 import MonitorDetail from '@/components/MonitorDetail'
-import { ReactElement } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const runtime = 'experimental-edge'
 const inter = Inter({ subsets: ['latin'] })
