@@ -78,6 +78,11 @@ export default function Home({
             About
           </a>
           {' '}
+          {' '}
+          <a href="https://github.com/Frank-Kam" target="_blank">
+            GitHub
+          </a>
+          {' '}
           {' '} 
           <a href="mailto:mail@frankk.uk" target="_blank">
             Contact
