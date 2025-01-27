@@ -80,7 +80,7 @@ export default function Home({
           <a href="mailto:mail@frankk.uk" target="_blank">
             Contact Me
           </a>
-        </text>
+        </Text>
         
       </main>
     </>
