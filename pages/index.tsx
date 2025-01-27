@@ -74,12 +74,18 @@ export default function Home({
           textAlign: 'center'
         }}>
          
-          <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
-            UptimeFlare
+          <a href="https://frankk.uk/about/" target="_blank">
+            About
           </a>
           {' '}
+          {' '} 
           <a href="mailto:mail@frankk.uk" target="_blank">
-            Contact Me
+            Contact
+          </a>
+          {' '}
+          {' '} 
+          <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
+            UptimeFlare
           </a>
         </Text>
         
