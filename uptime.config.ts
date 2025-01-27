@@ -13,7 +13,7 @@ const workerConfig = {
   // Define all your monitors here
   monitors: [
     {
-      id: 'foo_monitor_1',
+      id: 'blog',
       name: 'Blog',
       method: 'GET',
       target: 'https://frankk.uk/robots.txt',
@@ -26,7 +26,7 @@ const workerConfig = {
       },
     },
     {  
-      id: 'foo_monitor_2',
+      id: 'dypc',
       name: 'DYPC CTFd',
       method: 'GET',
       target: 'https://ctf.dypc.cc/robots.txt',
@@ -39,7 +39,7 @@ const workerConfig = {
       },
     },
     {
-      id: 'foo_monitor_3',
+      id: 'dysh',
       name: 'DYISH Home Page',
       method: 'GET',
       target: 'https://www.dysh.tyc.edu.tw/robots.txt',
@@ -52,7 +52,7 @@ const workerConfig = {
       },
     },
     {  
-      id: 'foo_monitor_4',
+      id: 'dysh1',
       name: 'DYISH System',
       method: 'GET',
       target: 'https://score.dysh.tyc.edu.tw/index.html',
