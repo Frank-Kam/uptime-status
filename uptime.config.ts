@@ -1,9 +1,9 @@
 const pageConfig = {
   // Title for your status page
-  title: "MYNET's Status Page",
+  title: "Frank - Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'mailto:reports@mynet.tw', label: 'Email Me', highlight: true },
+   
   ],
 }
 
@@ -14,11 +14,11 @@ const workerConfig = {
   monitors: [
     {
       id: 'foo_monitor_1',
-      name: 'Carlos Life Book',
+      name: 'Blog',
       method: 'GET',
-      target: 'https://carlos.mynet.tw',
-      tooltip: 'Carlos Life Book',
-      statusPageLink: 'https://carlos.mynet.tw',
+      target: 'https://frankk.uk/robots.txt',
+      tooltip: 'Blog',
+      statusPageLink: 'https://frankk.uk/',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
@@ -27,11 +27,11 @@ const workerConfig = {
     },
     {  
       id: 'foo_monitor_2',
-      name: 'RACE.TW',
+      name: 'DYPC CTFd',
       method: 'GET',
-      target: 'https://race.tw',
-      tooltip: 'RACE.TW',
-      statusPageLink: 'https://race.tw',
+      target: 'https://ctf.dypc.cc/robots.txt',
+      tooltip: 'DYPC - CTFd',
+      statusPageLink: 'https://ctf.dypc.cc/',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
@@ -40,11 +40,11 @@ const workerConfig = {
     },
     {
       id: 'foo_monitor_3',
-      name: 'Miniflux - Race.tw',
+      name: 'My School Home Page',
       method: 'GET',
-      target: 'https://reader.race.tw',
-      tooltip: 'Miniflux - Race.tw',
-      statusPageLink: 'https://reader.race.tw',
+      target: 'https://www.dysh.tyc.edu.tw/home',
+      tooltip: 'DYISH Home Page',
+      statusPageLink: 'https://www.dysh.tyc.edu.tw',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
@@ -53,11 +53,11 @@ const workerConfig = {
     },
     {  
       id: 'foo_monitor_4',
-      name: 'GHOST.TW',
+      name: 'My School System',
       method: 'GET',
-      target: 'https://ghost.tw',
-      tooltip: 'GHOST.TW',
-      statusPageLink: 'https://ghost.tw',
+      target: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
+      tooltip: 'My School System',
+      statusPageLink: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
