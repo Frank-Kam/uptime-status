@@ -77,6 +77,7 @@ export default function Home({
           <a href="https://frankk.uk" target="_blank">
             My Blog
           </a>
+          {' '}
           <a href="mailto:mail@frankk.uk" target="_blank">
             Contact Me
           </a>
