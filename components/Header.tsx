@@ -1,6 +1,7 @@
 import { Container, Group, Text } from '@mantine/core'
 import classes from '@/styles/Header.module.css'
 import { pageConfig } from '@/uptime.config'
+import Image from "next/image";
 
 export default function Header() {
   const linkToElement = (link: { label: string; link: string; highlight?: boolean }) => {
@@ -22,7 +23,12 @@ export default function Header() {
       <Container size="md" className={classes.inner}>
         <div>
           <a href="https://status.frankk.uk" target="_blank">
-            <img src="https://frankk.uk/apple-touch-icon.png" sizes="32x32"  alt="" title=""></img>
+            <Image
+            src="https://frankk.uk/apple-touch-icon.png"
+            alt="ICON"
+            width={48}
+            height={48}
+            />
           </a>
         </div>
 
