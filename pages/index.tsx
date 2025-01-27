@@ -49,7 +49,7 @@ export default function Home({
     <>
       <Head>
         <title>{pageConfig.title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://frankk.uk/favicon-32x32.png" />
       </Head>
 
       <main className={inter.className}>
