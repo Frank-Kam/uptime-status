@@ -56,7 +56,7 @@ const workerConfig = {
       name: 'My School System',
       method: 'GET',
       target: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
-      tooltip: 'My School System',
+      tooltip: 'DYISH System',
       statusPageLink: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
       expectedCodes: [200],
       timeout: 10000,
