@@ -9,6 +9,8 @@ import Header from '@/components/Header'
 import MonitorList from '@/components/MonitorList'
 import { Center, Divider, Text } from '@mantine/core'
 import MonitorDetail from '@/components/MonitorDetail'
+import { ReactElement } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const runtime = 'experimental-edge'
 const inter = Inter({ subsets: ['latin'] })
@@ -75,22 +77,22 @@ export default function Home({
         }}>
          
           <a href="https://frankk.uk/about/" target="_blank">
-            <i class="fa-regular fa-user"></i>
+            <FontAwesomeIcon icon="fa-regular fa-user" />
           </a>
           {' '}
           {' '}
           <a href="https://github.com/Frank-Kam" target="_blank">
-            <i class="fa-brands fa-square-github"></i>
+            <FontAwesomeIcon icon="fa-brands fa-square-github" />
           </a>
           {' '}
           {' '} 
           <a href="mailto:mail@frankk.uk" target="_blank">
-            <i class="fa-regular fa-envelope"></i>
+            <FontAwesomeIcon icon="fa-regular fa-envelope" />
           </a>
           {' '}
           {' '} 
           <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
-            <i class="fa-regular fa-clock"></i>
+            <FontAwesomeIcon icon="fa-regular fa-clock" />
           </a>
         </Text>
         
