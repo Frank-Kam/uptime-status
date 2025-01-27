@@ -75,22 +75,22 @@ export default function Home({
         }}>
          
           <a href="https://frankk.uk/about/" target="_blank">
-            <FontAwesomeIcon icon="fa-regular fa-user" />
+            <i class="fa-regular fa-user"></i>
           </a>
           {' '}
           {' '}
           <a href="https://github.com/Frank-Kam" target="_blank">
-            <FontAwesomeIcon icon="fa-brands fa-github" />
+            <i class="fa-brands fa-square-github"></i>
           </a>
           {' '}
           {' '} 
           <a href="mailto:mail@frankk.uk" target="_blank">
-            <FontAwesomeIcon icon="fa-solid fa-envelope" />
+            <i class="fa-regular fa-envelope"></i>
           </a>
           {' '}
           {' '} 
           <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
-            <FontAwesomeIcon icon="fa-regular fa-clock" />
+            <i class="fa-regular fa-clock"></i>
           </a>
         </Text>
         
