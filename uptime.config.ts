@@ -22,7 +22,7 @@ const workerConfig = {
       expectedCodes: [200],
       timeout: 10000,
       headers: {
-        'User-Agent': 'Uptimeflare',
+        'User-Agent': 'StatusCheck',
       },
     },
     {  
@@ -35,7 +35,7 @@ const workerConfig = {
       expectedCodes: [200],
       timeout: 10000,
       headers: {
-        'User-Agent': 'Uptimeflare',
+        'User-Agent': 'StatusCheck',
       },
     },
     {
@@ -48,7 +48,7 @@ const workerConfig = {
       expectedCodes: [200],
       timeout: 10000,
       headers: {
-        'User-Agent': 'Uptimeflare',
+        'User-Agent': 'StatusCheck',
       },
     },
     {  
@@ -57,11 +57,11 @@ const workerConfig = {
       method: 'GET',
       target: 'https://score.dysh.tyc.edu.tw/index.html',
       tooltip: 'A Score System of My School',
-      statusPageLink: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
+      statusPageLink: 'https://score.dysh.tyc.edu.tw/SCH_UI/Login.aspx',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
-        'User-Agent': 'Uptimeflare',
+        'User-Agent': 'StatusCheck',
       },
     },
   ],
