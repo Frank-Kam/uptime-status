@@ -23,12 +23,15 @@ export default function Header() {
       <Container size="md" className={classes.inner}>
         <div>
           <a href="https://status.frankk.uk" target="_blank">
-              <Image
-              src="https://frankk.uk/apple-touch-icon.png"
-              alt=""
-              width={48}
-              height={48}
-              />
+            <Text
+              size="xl"
+              span
+              fw={700}
+              variant="gradient"
+              gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
+            >
+              Frank Status page
+            </Text>
           </a>
         </div>
 
