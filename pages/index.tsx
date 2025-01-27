@@ -70,6 +70,17 @@ export default function Home({
         )}
 
         <Divider mt="lg" />
+        <Text size="xs" mt="xs" mb="xs" style={{
+          textAlign: 'center'
+        }}>
+         
+          <a href="https://frankk.uk" target="_blank">
+            My Blog
+          </a>
+          <a href="mailto:mail@frankk.uk" target="_blank">
+            Contact Me
+          </a>
+        </text>
         
       </main>
     </>
