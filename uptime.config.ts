@@ -30,7 +30,7 @@ const workerConfig = {
       name: 'DYPC CTFd',
       method: 'GET',
       target: 'https://ctf.dypc.cc/robots.txt',
-      tooltip: 'DYPC - CTFd',
+      tooltip: 'DYPC CTFd',
       statusPageLink: 'https://ctf.dypc.cc/',
       expectedCodes: [200],
       timeout: 10000,
@@ -40,7 +40,7 @@ const workerConfig = {
     },
     {
       id: 'foo_monitor_3',
-      name: 'My School Home Page',
+      name: 'DYISH Home Page',
       method: 'GET',
       target: 'https://www.dysh.tyc.edu.tw/home',
       tooltip: 'DYISH Home Page',
@@ -53,7 +53,7 @@ const workerConfig = {
     },
     {  
       id: 'foo_monitor_4',
-      name: 'My School System',
+      name: 'DYISH System',
       method: 'GET',
       target: 'https://score.dysh.tyc.edu.tw/sCH_UI/Login.aspx',
       tooltip: 'DYISH System',
