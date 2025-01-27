@@ -77,22 +77,22 @@ export default function Home({
         }}>
          
           <a href="https://frankk.uk/about/" target="_blank">
-            <FontAwesomeIcon icon="fa-regular fa-user" />
+            About
           </a>
           {' '}
           {' '}
           <a href="https://github.com/Frank-Kam" target="_blank">
-            <FontAwesomeIcon icon="fa-brands fa-square-github" />
+            GitHub
           </a>
           {' '}
           {' '} 
           <a href="mailto:mail@frankk.uk" target="_blank">
-            <FontAwesomeIcon icon="fa-regular fa-envelope" />
+            Contact
           </a>
           {' '}
           {' '} 
           <a href="https://github.com/lyc8503/UptimeFlare" target="_blank">
-            <FontAwesomeIcon icon="fa-regular fa-clock" />
+            UptimeFlare
           </a>
         </Text>
         
