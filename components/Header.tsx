@@ -24,10 +24,6 @@ export default function Header() {
           <a href="https://status.frankk.uk" target="_blank">
             <Text
               size="xl"
-              span
-              fw={700}
-              variant="gradient"
-              gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
             >
               Frank-Status Page
             </Text>
