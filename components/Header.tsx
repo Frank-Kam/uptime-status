@@ -29,7 +29,7 @@ export default function Header() {
               variant="gradient"
               gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
             >
-              Frank's Status Page
+              Frank-Status Page
             </Text>
           </a>
         </div>
