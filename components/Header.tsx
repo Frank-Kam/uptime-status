@@ -22,11 +22,7 @@ export default function Header() {
       <Container size="md" className={classes.inner}>
         <div>
           <a href="https://status.frankk.uk" target="_blank">
-            <Text
-              size="xl"
-            >
-              Frank-Status Page
-            </Text>
+            <img src="https://frankk.uk/apple-touch-icon.png"  alt="" title="">
           </a>
         </div>
 
