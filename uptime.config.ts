@@ -16,9 +16,9 @@ const workerConfig = {
       id: 'blog',
       name: 'Blog',
       method: 'GET',
-      target: 'https://frankk.uk/robots.txt',
+      target: 'https://blog.frankk.uk/robots.txt',
       tooltip: 'My Blog',
-      statusPageLink: 'https://frankk.uk/',
+      statusPageLink: 'https://blog.frankk.uk/',
       expectedCodes: [200],
       timeout: 10000,
       headers: {
